@@ -1,0 +1,295 @@
+body{
+    width:unset;
+    background-image: url('images/silk1.jpg');
+}
+html, body, .block {
+    height: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.brand-logo{
+    font-family: 'Antic Didone', serif;
+    font-size: x-large;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+#options{
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    color: #fff;
+}
+
+.nav-wrapper{
+    box-shadow: 0px 1px 50px #adadc2;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    color: #ffff;
+    font-size: 75px;
+    font-weight: 100;
+    margin-top: 150px;
+    letter-spacing: 8px;
+}
+
+
+input#fname{
+    border-bottom: 0px solid #fff;
+}
+
+#fname{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    height: 63px;
+    margin-top: -41px;
+}
+
+.input-field input[type=text]:focus{
+    border-bottom: 0px solid #aaa;
+} 
+
+.carousel{
+    position: absolute;
+    top: 60px;
+    height: 155px;
+    right: 50px;
+    width: 800px;
+    /* border-width: 5px;
+    border-style: ridge;
+    border-color: #b1daff; */
+}
+
+#choices{
+    height: 300px;
+    width: auto;
+}
+
+img#choices.z-depth-3.op1{
+    position: absolute;
+    top: -50px;
+}
+
+img#choices.z-depth-3.op2{
+    position: absolute;
+    top: -163px;
+    object-fit: cover;
+    width: 200px;
+    height: 420px;
+    overflow: hidden;
+}
+
+img#choices.z-depth-3.op3{
+    position: absolute;
+    top: -120px;
+    width: 200px;
+    object-fit: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+img#choices.z-depth-3.op4{
+    position: absolute;
+    top: -120px;
+    width: 200px;
+    object-fit: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+img#choices.z-depth-3.op5{
+    position: absolute;
+    top: 4px;
+    width: 200px;
+    object-fit: cover;
+    height: 417px;
+}
+
+.material-tooltip {
+    font-size: 25px;
+    background-color: #32323200;
+    /* margin-top: -30px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.card-panel.panel1{
+    background-color: #eaeaea;
+    margin-top: -188px;
+}
+
+h3{
+    font-family: serif;
+    line-height: 100%;
+    color: #6d6d6d;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6d6d6d;
+    border-spacing: 100%;
+}
+
+a.waves-effect.waves-light.btn-large{
+    background-color: #6d6d6d;
+}
+
+.card {
+    margin-top: -15px;
+}
+
+.card .card-image {
+    position: relative;
+    height: auto;
+    width: 1305px;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    bottom: unset;
+    max-width: unset;
+    padding: unset;
+    left: 58px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card .card-title {
+    font-size: unset;
+    font-weight: 300;
+}
+
+span.card-title.one {
+    margin-top: -215px;
+    font-size: 30px;
+}
+
+span.card-title.two {
+    position: absolute;
+    font-size: 15px;
+    margin-top: -172px;
+}
+
+.card-panel.footer{
+    background-image: url('images/silk1.jpg');
+    margin-top: -20px;
+    height: 450px
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 500;
+}
+
+.material-symbols-outlined.box{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    outline: #ffff solid 3px;
+    height: 196px;
+    width: 227px;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+p.caption {
+    margin-top: -35px;
+    color: #fff;
+}
+
+img.charity {
+    height: 100px;
+}
+
+.l{
+    font-style: italic;
+    color:#6d6d6d;
+}
+
+.collapsible-header.one {
+    background-color:#1a1919 ;
+}
+
+.collapsible-header.two {
+    background-color:#064462;
+}
+
+/* ------------------------Products------------------------------ */
+
+h3.ad{
+    position: absolute;
+    margin-top: -10px;
+    left: -110px;
+    font-size: 25px;
+    color: #424242;
+}
+
+h5.ad{
+    position:absolute;
+    margin-top: 10px;
+    left: -110px;
+    font-size: 15px;
+    color: #6d6d6d;
+}
+
+h2.categories {
+    position: absolute;
+    left: 50px;
+    color: #424242;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card-panel.products{
+    height: 370px;
+    width: 350px;
+    padding:0px;
+    box-shadow: 0px 1px 50px #adadc2;
+    margin-left: 20px;
+}
+
+img.products{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+}
+
+#categ{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    word-spacing: 20px;
+    margin-top: 0px;
+}
+p.info {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: -65px;
+    line-height: px;
+}
+
+#preloader {
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+table{
+    height: 600px;
+    width: 90%;
+}
+
+
+.card-panel.last{height: 700px;}

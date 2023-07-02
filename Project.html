@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Antic+Didone&family=DM+Serif+Display&display=swap&family=Roboto&family=Roboto+Mono&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Project.css">
+    <title>Luminous</title>
+</head>
+
+<body>
+    <div id="preloader"></div>
+<!-- Naviigation bar -->
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs tabs-fixed-width tabs-transparent">
+                <li class="tab right disabled"><a>&emsp;</a></li>
+                <a class="tab brand-logo disabled">Luminous</a>
+                <li class="tab right disabled"><a>&emsp;&emsp;</a></li>
+                <li class="tab right"><a class="active" href="#home" id="options">Home</a></li>
+                <li class="tab right"><a href="#products" id="options">Products</a></li>
+                <li class="tab right"><a href="#membership" id="options">Memberships</a></li>
+                <li class="tab right disabled"><a>&emsp;</a></li>
+            </ul>
+        </div>
+
+    <!-- Pages -->
+        <!-- Homepage -->
+        <div id="home" class="col s12">
+        <div class="row">
+            <h1 class="center">WELCOME,</h1>
+            <div class="col s4 offset-s4">
+                <form class="center">
+                    <input type="text" id="fname" name="fname" value="Gorgeous Customer!" class="right truncate"><br>
+                </form>
+            </div>
+        </div>    
+                <!-- Carousel, pagpipiliian nila -->
+        <div class="parallax-container">
+            <div class="carousel hoverable indigo lighten-4">
+                <a class="carousel-item hoverable tooltipped" data-position=top" data-tooltip="Earrings" id="1-active" data- href="#earrings"><img src="images/Earrings1.webp" id="choices" class="z-depth-3 op1">
+                </a>
+                <a class="carousel-item hoverable tooltipped" data-position=top" data-tooltip="Necklaces" id="2-active" href="#necklaces"><img src="images/Necklace2.jpg" id="choices" class="z-depth-3 op2">
+                </a>
+                <a class="carousel-item hoverable tooltipped" data-position=top" data-tooltip="Bracelets" id="3-active" href="#bracelets"><img src="images/Bracelet1.jpg" id="choices" class="z-depth-3 op3">
+                </a>
+                <a class="carousel-item hoverable tooltipped" data-position=top" data-tooltip="Rings" id="4-active" href="#rings"><img src="images/Rings1.jpg" id="choices" class="z-depth-3 op4">
+                </a>
+                <a class="carousel-item hoverable tooltipped" data-position=top" data-tooltip="Headpieces" id="5-active" href="#head"><img src="images/Head1.jpg" id="choices" class="z-depth-3 op5">
+                </a>
+            </div>
+        </div>
+
+        <!-- Shop Now -->
+        <div class="card-panel panel1">
+            <br>
+            <div class="container">
+                <h3>We value you, so we guarantee our authenticity.</h3>
+                <p> Enjoy endless online shopping without the bitter after taste of regret. Each of our own crafts come with an authentication certificate, so you can enjoy your shopping spree free of guilt and doubt.</p>
+                <a class="waves-effect waves-light btn-large" href="#!">Shop Now</a>
+                <br><br><br>
+            </div>
+        </div>
+
+        <!-- Ad -->
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Untitled48_20230702001257.png">
+                <span class="card-title one">Jewelry for decor and purpose</span>
+                <span class="card-title two">For every purchase made, 10% of the proceeds goes to <a href="#modal1" class="grey lighten-4 grey-text modal-trigger">charities.</a></span>
+            </div>    
+            <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                    <br>
+                    <h3>Effortlesly, <a class="l">luminous</a> with a heart.</h3>
+                    <p>Because of you, we are able to support the foundations:</p>
+                    
+                    <!-- Charities -->
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header one">
+                                <img src="images/WFW.PNG" alt="" class="charity">
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Imagine the country running out of water - a drought would take over leading to a shrinking food supply, damaged habitat, crop damage, and more. If the thought of this makes you feel hopeless, then you may want to work with Waves for Water. The organization works with leaders and partners to provide clean and potable water for communities in the Philippines and other countries around th world.                                
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <img src="images/Justforocean.PNG" alt="">
+                            </div>
+                            <div class="collapsible-body">
+                                <span>The Philippines is surrounded by seas. It's only apt for us to protect them so they can protect us from possible harm.
+                                Part of the advocasea of Save Philippine Seas is to promote community empowerment, environmental education, and shark conservation.
+                                The org also initiates citizen-led programs to empower Pinoys towards behavioral change.
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header two">
+                                <img src="images/GreenPe.PNG" alt="" class="charity">
+                            </div>
+                            <div class="collapsible-body">
+                                <span>The main goal of Greenpeace Philippines is to protect natural landscapes, species, and more from environmental threats such as perilous waste imports, coal projects, and illegal logging. Aside from promoting ecological farming, this volunteer-based group also holds campaigns against land, air, and water pollution.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Thank you for your support.<a>
+                </div>
+            </div>
+            <div class="card-content"></div>    
+        </div>
+
+        <!-- Parang footer -->
+        <div class="card-panel footer">
+            <h2 class="center">We proudly offer products that are:</h2>
+            <div class="row center">
+                <div class="col s3">
+                    <span class="material-symbols-outlined box">
+                    local_shipping
+                    </span>
+                    <p class="caption">Global free shipping</p>
+                </div>
+                <div class="col s3">
+                    <span class="material-symbols-outlined box">
+                    eco
+                    </span>
+                    <p class="caption">Eco-friendly</p>
+                </div>
+                <div class="col s3">
+                    <span class="material-symbols-outlined box">
+                    deceased
+                    </span>
+                    <p class="caption">Hypoallergenic</p>
+                </div>
+                <div class="col s3">
+                    <span class="material-symbols-outlined box">
+                        diamond
+                    </span>
+                    <p class="caption">Made from real gems</p>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div id="products" class="col s12">    
+    <div class="slider">
+        <ul class="slides">
+        <li>
+            <img src="images/sets/gardie-design-social-media-marketing-i2jbuqO0YfM-unsplash.jpg" data-caption="GET 50% OFF OF YOUR FIRST PURCHASE">
+            <div class="caption left-align">
+                <br><br><br><br><br><br><br><br>
+                <h3 class="ad">GET 50% OFF OF YOUR FIRST PURCHASE!</h3>
+                <h5 class="light ad">Only available for members, and is only applicable on certain products.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="images/sets/jasmin-chew-WKD2vIe8Rb0-unsplash.jpg" alt="">
+            <div class="caption left-align">
+                <br><br><br><br><br><br><br><br>
+                <h3 class="ad">GET 50% OFF OF YOUR FIRST PURCHASE!</h3>
+                <h5 class="light ad">Only available for members, and is only applicable on certain products.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="images/sets/luisana-galicia-rGz2Z6tVaeg-unsplash.jpg" alt="">
+            <div class="caption left-align">
+                <br><br><br><br><br><br><br><br>
+                <h3 class="ad">GET 50% OFF OF YOUR FIRST PURCHASE!</h3>
+                <h5 class="light ad">Only available for members, and is only applicable on certain products.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="images/sets/pexels-alleksana-7248760.jpg" alt="">
+            <div class="caption left-align">
+                <br><br><br><br><br><br><br><br>
+                <h3 class="ad">GET 50% OFF OF YOUR FIRST PURCHASE!</h3>
+                <h5 class="light ad">Only available for members, and is only applicable on certain products.</h5>
+            </div>
+        </li>
+        <li>
+            <img src="images/sets/pexels-renato-zapata-14216749.jpg" alt="">
+            <div class="caption left-align">
+                <br><br><br><br><br><br><br><br>
+                <h3 class="ad">GET 50% OFF OF YOUR FIRST PURCHASE!</h3>
+                <h5 class="light ad">Only available for members, and applicable on certain products only.</h5>
+            </div>
+        </li>
+        </ul>   
+    </div>
+
+        <nav class="white">
+            <div class="row">
+                <div class="container">
+                <p id="categ" class="center">
+                    <a href="#earrings" id="categ">EARRINGS</a>
+                    <a href="#necklaces" id="categ">NECKLACES</a>
+                    <a href="#bracelets" id="categ">BRACELETS</a>
+                    <a href="#rings" id="categ">RINGS</a>
+                    <a href="#head" id="categ">HEADPIECES</a>
+                </p>
+                </div>
+            </div>
+        </nav>
+
+    <div class="card-panel grey lighten-3">
+        <h2 class="categories">Earrings</h2>
+        <div id="earrings">
+        <br><br><br>
+            <div class="row">
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/andrew-hutchings-Asngw4A5_tM-unsplash (1).jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/carmen-alarcon-xUDN8tHnUeg-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/gabrielle-henderson-XTp4ZzD76Xw-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/ha-ha-6RToWEdU9s4-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/kateryna-hliznitsova-3zF00hHQb3I-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/pexels-lara-artemova-1648741.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/pexels-the-glorious-studio-10983781.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/pexels-the-glorious-studio-10983783.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/sabrianna-Ky2coJ7YaOE-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/sabrianna-LRubu3f5yWM-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/sabrianna-x_iL7y7VV4M-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+                <div class="col s6 l4">
+                    <div class="card-panel products">
+                        <img class="products" src="images/earrings/samar-ahmad-O2jfnvVJDwA-unsplash.jpg" alt="">
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        <h2 class="categories">Necklaces</h2>
+            <div id="necklaces">
+            <br><br><br>
+                <div class="row">
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/alexey-demidov-OpcI4Ar8H4A-unsplash.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/eve-maier-7uQQHORcTpc-unsplash.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/fanqi-VLy8wPYpV9s-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/patty-zavala-SniDFooLoow-unsplash.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-coppertist-wu-16109307.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-kader-d-kahraman-10581731.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-nataliya-vaitkevich-8100396.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-superlens-photography-11655208.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-the-glorious-studio-13204122.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-the-glorious-studio-13204125.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-the-glorious-studio-13204198.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/necklaces/pexels-the-glorious-studio-13907893.jpg" alt="">
+                        </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <h2 class="categories">Bracelets</h2>
+            <div id="bracelets">
+            <br><br><br>
+                <div class="row">
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/alexey-demidov-cHcaTsM-Isg-unsplash.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-alexey-demidov-11157508.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-alexey-demidov-12331832.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-alexey-demidov-9686750.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-kader-d-kahraman-10557316.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-melike-benli-12194240.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-melike-benli-12194298.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-superlens-photography-11655217.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-the-glorious-studio-13160939.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-the-glorious-studio-13160941.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/pexels-vladimir-konoplev-11027734.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/bracelets/sabrianna-2z7MxnXQs3k-unsplash.jpg" alt="">
+                        </div>
+                          
+                    </div> 
+                </div>
+            </div>
+            <h2 class="categories">Rings</h2>
+            <div id="rings">
+            <br><br><br>
+                <div class="row">
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/alexis-antoine-r7JZGKGhrf0-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-4eivCfZmyEA-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-4ZhSrGNFa1s-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-_MMDzDm6cpU-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-CCpQ12CZ2Pc-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-lX2saJf1Xp4-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-kuko1hX_kXw-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-mmCm6c2ru5A-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-RDhyQevBAng-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-sYndC0dqvwI-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-wh_rZqPiCuw-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/rings/sabrianna-yEJwDxAoHc0-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                </div>
+            </div>
+            <h2 class="categories">Headpieces</h2>
+            <div id="head">
+            <br><br><br>
+                <div class="row">
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/1.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/2.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/3.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/4.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/fiona-murray-KE95wIwKp4Y-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/june-admiraal-1KRyMGOKwBQ-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/pexels-julia-volk-7099867.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/susur-he-CdBoB8bs2yY-unsplash.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/z.jpg">
+                        </div>
+                          
+                    </div> 
+                    <div class="col s6 l4">
+                        <div class="card-panel products">
+                            <img class="products" src="images/headpieces/o.jpg">
+                        </div>
+                          
+                    </div> 
+                </div>
+            </div>      
+        </div> 
+    </div>
+
+    <div id="membership" class="col s12">
+        <div class="card-panel last">
+            <div class="center">
+            <table class="col s10 offset-s1">
+                <thead>
+                <tr>
+                    <th>Membership</th>
+                    <th>&emsp;</th>
+                    <th>&emsp;</th>
+                </tr>
+                </thead>
+        
+                <tbody>
+                <tr>
+                    <td>&emsp;</td>
+                    <td>Common</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>Free</td>
+                    <td>$20 monhtly</td>
+                </tr>
+                <tr>
+                    <td>Shipping fee</td>
+                    <td>$5-$23 depends on loacation</td>
+                    <td>20% off shipping fee</td>
+                </tr>
+                <tr>
+                    <td>Freebies</td>
+                    <td>None</td>
+                    <td>Every Occassions</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- /Pages -->
+
+
+
+
+
+<!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script src="Project.js"></script>
+<!-- /Scripts -->
+</body>
+</html>
