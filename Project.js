@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
     $('.parallax').parallax({
     });
-    $('.tabs').tabs();
+
     $('.tooltipped').tooltip({
         enterDelay: 50,
         margin: 0,
@@ -20,8 +20,4 @@ $(document).ready(function(){
         height:300,
     });
 });
-var loader = document.getElementById("preloader");
-        window.addEventListener("load", function() {
-            loader.style.display = "none";
-            
-})
+
